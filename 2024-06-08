@@ -20,7 +20,7 @@
         padding: 15px 20px;
         font-size: 16px;
         font-family: "SourceSerifPro", serif;
-        font-weight: 400;
+        font-weight: 400; /* Lägg till denna rad för att göra texten fet */
         background-color: #555555; /* Ljusare mörkgrå färg */
         color: white;
         border: none;
@@ -36,6 +36,6 @@
 <!-- JavaScript för att hantera klickhändelsen -->
 <script>
     document.getElementById("Knapp").addEventListener("click", function() {
-        window.location.href = "https://www.dinwebbplats.se/kontakta-mig";
+        window.location.href = "https://www.amandawikander.se/kontakt/";
     });
 </script>
