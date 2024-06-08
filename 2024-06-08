@@ -1,21 +1,27 @@
 <!-- HTML för knappen -->
-<button id="Knapp">Kontakta mig</button>
+<div class="knapp-container">
+    <button id="Knapp">Kontakta mig</button>
+</div>
 
 <!-- Inbäddad CSS för att styla knappen och inkludera typsnitt -->
 <style>
     @font-face {
         font-family: "SourceSerifPro";
         font-weight: 400;
-        src: url("https://use.typekit.net/af/8d8f6d/00000000000000003b9b2b6f/30/l?subset_id=2&fvd=i3&v=3") format("woff2"),
-             url("https://use.typekit.net/af/8d8f6d/00000000000000003b9b2b6f/30/d?subset_id=2&fvd=i3&v=3") format("woff");
+        src: url("https://use.typekit.net/af/8d8f6d/00000000000000003b9b2b6f/30/l?subset_id=2&fvd=i7&v=3") format("woff2"),
+             url("https://use.typekit.net/af/8d8f6d/00000000000000003b9b2b6f/30/d?subset_id=2&fvd=i7&v=3") format("woff");
+    }
+
+    .knapp-container {
+        text-align: center; /* Centrerar knappen horisontellt */
     }
 
     #Knapp {
-        padding: 10px 20px;
+        padding: 15px 20px;
         font-size: 16px;
         font-family: "SourceSerifPro", serif;
-        font-weight: 700;
-        background-color: #555555;
+        font-weight: 400;
+        background-color: #555555; /* Ljusare mörkgrå färg */
         color: white;
         border: none;
         border-radius: 5px;
@@ -23,7 +29,7 @@
     }
 
     #Knapp:hover {
-        background-color: #777777;
+        background-color: #777777; /* Ännu ljusare grå färg vid hovring */
     }
 </style>
 
