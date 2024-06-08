@@ -5,7 +5,7 @@
 <style>
     @font-face {
         font-family: "SourceSerifPro";
-        font-weight: 300;
+        font-weight: 400;
         src: url("https://use.typekit.net/af/8d8f6d/00000000000000003b9b2b6f/30/l?subset_id=2&fvd=i3&v=3") format("woff2"),
              url("https://use.typekit.net/af/8d8f6d/00000000000000003b9b2b6f/30/d?subset_id=2&fvd=i3&v=3") format("woff");
     }
@@ -14,6 +14,7 @@
         padding: 10px 20px;
         font-size: 16px;
         font-family: "SourceSerifPro", serif;
+        font-weight: 700;
         background-color: #4CAF50;
         color: white;
         border: none;
